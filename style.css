@@ -1,0 +1,186 @@
+.home {
+    background-color: #040340;
+    height: 800px;
+    width: 1350px;
+    margin-bottom: 300px;
+    margin-left: -7px;
+}
+
+.head {
+    height: 30px;
+    float: left;
+    padding: 0px;
+    /* top | right | bottom | left */
+    margin: 20px 0px 0px 0px;
+}
+
+.pic1 {
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 0px 80px;
+    float: left;
+}
+
+.list,
+li {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: -5px 25px 10px -10px;
+    padding-right: 40px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:hover {
+    color: #4B95ED;
+}
+
+.india-flag {
+    width: 28px;
+    height: 20px;
+    background: url("images/india-flag.svg") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    /* top | right | bottom | left */
+    margin: 0px -30px 0px 0px;
+}
+
+.india-flag:hover:before {
+    content: '';
+    position: absolute;
+    border: 8px solid transparent;
+    bottom: -10px;
+    left: 6px;
+    border-bottom-color: rgba(0, 0, 0, 0.6);
+}
+
+.india-flag:hover:after {
+    pointer-events: none;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 20px;
+    border-radius: 4px;
+    content: 'Razorpay is currently available only for Indian businesses';
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    left: -100px;
+    top: 100%;
+    margin-top: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.login-item {
+    padding-top: 0;
+    padding-bottom: 0;
+    /* margin:  0px 0px 0px -15px; */
+}
+
+.login-link {
+    display: block;
+    padding: 9px 21px;
+    cursor: pointer;
+    color: #fff;
+    background: rgba(11, 112, 231, 0.1);
+    border: 1px solid #2b83ea;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: -15px 0px 0px -15px;
+}
+
+.signup {
+    background-color: white;
+    height: 40px;
+    float: left;
+    width: 120px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #6290D9;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    margin: -21px 0px 20px -47px;
+}
+
+#arrow {
+    margin: -5px 0px;
+}
+
+.head-left {
+    height: 350px;
+    width: 550px;
+    float: left;
+    margin: 100px 0px 0px 70px;
+}
+
+.head-line {
+    text-align: start;
+    color: white;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.linecode {
+    height: 5px;
+    width: 40px;
+    background-color: #58C19C;
+    float: left;
+    margin: 10px 0px 0px 0px;
+}
+
+#razorpaypara1 {
+    color: #FFFFFFB3;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: left;
+    margin: 50px 0px 0px 0px;
+    width: 348px;
+}
+
+#razorpaypara1 br {
+    display: none;
+}
+
+.signup2 {
+    font-size: 16px;
+    font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    width: 130px;
+    height: 53px;
+    color: white;
+    background-color: #0a6feb;
+    margin: 30px -348px 0px 0px;
+    border-radius: 5px;
+}
+
+#signup2 {
+    color: white;
+    font-size: 17px;
+    margin-right: -10px;
+    text-decoration: none;
+}
+
+.head-right {
+    /* height: 400px;
+    width: 370px; */
+    /* float: left; */
+    margin: 21px 0px 0px 300px;
+}
+
+#mainimage {
+    width: 700px;
+    height: 600px;
+    /* margin: 21px 0px 0px 300px; */
+}
