@@ -2,7 +2,7 @@
     background-color: #040340;
     height: 800px;
     width: 1350px;
-    margin-bottom: 300px;
+    margin-bottom: 20px;
     margin-left: -7px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .list,
-li {
+#sub-navigator li {
     color: white;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -35,6 +35,14 @@ li {
 
 li:hover {
     color: #4B95ED;
+}
+
+main h1,
+main h2,
+main h3 {
+    letter-spacing: .5px;
+    color: #0d2366;
+    margin-bottom: 6px;
 }
 
 .india-flag {
@@ -184,3 +192,115 @@ li:hover {
     height: 600px;
     /* margin: 21px 0px 0px 300px; */
 }
+
+
+/* -------------------------------------------------------------- */
+
+#main-content {
+    z-index: 2;
+    position: relative;
+}
+
+#pg {
+    padding-top: 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
+}
+
+.center {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#linecode {
+    height: 5px;
+    width: 40px;
+    background-color: #58C19C;
+    float: left;
+    margin: 0px 0px 0px 523px;
+}
+
+#home #pg .pre-info {
+    position: relative;
+    margin: 80px, 0px, 0px, 0px;
+    border-radius: 6px;
+    padding: 40px 40px 300px 40px;
+    background: url("images/pg-graphic.png") no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 60%;
+    background-color: #fff;
+    border: 1px solid rgba(4, 9, 63, 0.05);
+}
+
+#home .dotted-bg:before {
+    height: 167px;
+    width: 275px;
+    content: '';
+    background-image: url("images/dotted-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    position: absolute;
+    top: -107px;
+    right: 0px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#home #pg .pre-info .title {
+    font-size: 28px;
+    line-height: 150%;
+    max-width: 510px;
+    color: #132763;
+    font-weight: bold;
+}
+
+#home #pg .pre-info .title span {
+    color: #3281ff;
+}
+
+#home #pg .pre-info ul.list1 {
+    display: inline-block;
+    margin-top: 41px;
+    margin-bottom: 0;
+    color: rgba(13, 36, 98, 0.8);
+    font-size: 16px;
+    line-height: 200%;
+}
+
+#home #pg .pre-info ul.list1 li {
+    margin: 0;
+    padding-left: 36px;
+}
+
+#home #pg .pre-info ul.list1 li:before {
+    top: 4px;
+    border-color: #75d7b7;
+    width: 4px;
+    height: 11px;
+    margin-left: -36px;
+}
+
+
+/* .signupnow {
+    background-color: white;
+    height: 40px;
+    float: left;
+    width: 130px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #6290D9;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    margin: -70px 0px 20px -100px;
+} */
