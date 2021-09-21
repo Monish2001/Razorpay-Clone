@@ -54,7 +54,7 @@ main h3 {
     vertical-align: middle;
     position: relative;
     /* top | right | bottom | left */
-    margin: 0px -30px 0px 0px;
+    margin: 0px -50px 0px 55px;
 }
 
 .india-flag:hover:before {
@@ -103,7 +103,7 @@ main h3 {
     border-radius: 2px;
     font-weight: bold;
     font-size: 14px;
-    margin: -15px 0px 0px -15px;
+    margin: -15px -15px 0px 5px;
 }
 
 .signup {
@@ -117,7 +117,7 @@ main h3 {
     font-weight: 400;
     text-align: center;
     border-radius: 5px;
-    margin: -21px 0px 20px -47px;
+    margin: -21px -15px 20px -40px;
 }
 
 #arrow {
@@ -234,8 +234,8 @@ main h3 {
     padding: 40px 40px 300px 40px;
     background: url("images/pg-graphic.png") no-repeat;
     background-position-x: right;
-    background-position-y: center;
-    background-size: 60%;
+    background-position-y: top;
+    background-size: 69%;
     background-color: #fff;
     border: 1px solid rgba(4, 9, 63, 0.05);
 }
@@ -279,7 +279,8 @@ main h3 {
 
 #home #pg .pre-info ul.list1 li {
     margin: 0;
-    padding-left: 36px;
+    padding-left: 10px;
+    font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 #home #pg .pre-info ul.list1 li:before {
@@ -290,17 +291,47 @@ main h3 {
     margin-left: -36px;
 }
 
-
-/* .signupnow {
-    background-color: white;
-    height: 40px;
+.signupnow {
+    background-color: #2783f3;
+    height: 50px;
     float: left;
-    width: 130px;
+    width: 160px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    color: #6290D9;
+    color: white;
     font-weight: 400;
     text-align: center;
     border-radius: 5px;
-    margin: -70px 0px 20px -100px;
-} */
+    margin: 40px 0px 0px 50px;
+    /* margin: 0px 0px 0px 50px; */
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    color: #2783f3;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 42px 0px 0px 16px;
+}
+
+.check {
+    display: inline-block;
+    /* transform: rotate(45deg); */
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+#tick {
+    font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    padding-left: 5px;
+    line-height: 35px;
+}
+
+.section2buttons {
+    list-style-type: none;
+}
